@@ -28,7 +28,7 @@ function DadosUsuario({aoEnviar}) {
               value={senha}
               onChange={event => setSenha(event.target.value)}
               label="senha"
-              type="senha"
+              type="password"
               required={true}
               variant="outlined"
               margin="normal"
